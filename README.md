@@ -23,7 +23,7 @@ An easy way to run a [noVNC](https://github.com/novnc/noVNC) instance and proxy 
 Usage: easy-novnc [options]
 
 Options:
-  -a, --addr string              The address to listen on (env NOVNC_ADDR) (default ":8080")
+  -a, --addr string              The address to listen on (env NOVNC_ADDR) (default ":8238")
   -H, --arbitrary-hosts          Allow connection to other hosts (env NOVNC_ARBITRARY_HOSTS)
   -P, --arbitrary-ports          Allow connections to arbitrary ports (requires arbitrary-hosts) (env NOVNC_ARBITRARY_PORTS)
   -u, --basic-ui                 Hide connection options from the main screen (env NOVNC_BASIC_UI)
