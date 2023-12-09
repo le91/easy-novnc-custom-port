@@ -7,5 +7,5 @@ RUN go build .
 
 FROM alpine:latest
 COPY --from=build /src/easy-novnc /
-EXPOSE 8080
+EXPOSE 8238
 ENTRYPOINT ["/easy-novnc"]
