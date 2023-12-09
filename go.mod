@@ -1,6 +1,4 @@
-module github.com/pgaskin/easy-novnc
-
-go 1.14
+module github.com/le91/easy-novnc-custom-port/
 
 require (
 	github.com/gorilla/mux v1.7.4
