@@ -37,7 +37,7 @@ func main() {
 	cidrBlacklist := pflag.StringSliceP("cidr-blacklist", "C", []string{}, "CIDR blacklist for when arbitrary hosts are enabled (comma separated) (conflicts with whitelist)")
 	host := pflag.StringP("host", "h", "localhost", "The host/ip to connect to by default")
 	port := pflag.Uint16P("port", "p", 5900, "The port to connect to by default")
-	addr := pflag.StringP("addr", "a", ":8080", "The address to listen on")
+	addr := pflag.StringP("addr", "a", ":8238", "The address to listen on")
 	basicUI := pflag.BoolP("basic-ui", "u", false, "Hide connection options from the main screen")
 	verbose := pflag.BoolP("verbose", "v", false, "Show extra log info")
 	noURLPassword := pflag.Bool("no-url-password", false, "Do not allow password in URL params")
